@@ -3,7 +3,6 @@ import ProjectStyles from "../styles/projects.module.css";
 import Image from "next/image";
 import BackgroundAnimation from "./Background";
 import BackgroundAnimation2 from "./Background2";
-import { useState } from "react";
 
 const Projects = () => {
 

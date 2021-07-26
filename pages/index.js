@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import React, { useEffect } from "react";
 
-import { HomeStyles } from "../styles/home.module.css";
+import HomeStyles from "../styles/Home.module.css";
 import Technologies from "../components/Technologies";
 import Footer from "../components/Footer";
 

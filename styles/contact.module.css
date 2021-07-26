@@ -55,15 +55,3 @@
   }
 }
 
-.contact img {
-  /* position: absolute;
-  right: -2%;
-  top: -6%;
-  transform: rotate(30deg); */
-}
-
-@media (max-width: 1136px) {
-  /* .contact img {
-    display: none;
-  } */
-}
