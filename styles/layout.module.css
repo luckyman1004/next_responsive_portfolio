@@ -1,0 +1,46 @@
+.container {
+  min-height: 100vh;
+  background-color: hsl(219, 41%, 10%);
+  color: white;
+  width: 100%;
+  overflow: hidden;
+  z-index: 4;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
+}
+.scroll {
+  position: fixed;
+  right: 5%;
+  top: 90%;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  transition: 0.5s all ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.hr {
+  width: 100%;
+  background: white;
+  border: none;
+  margin-block: 1rem;
+  height: 0;
+  box-shadow: 0 0 10px 1px hsl(0, 0%, 0%);
+  display: none;
+}
+@media (max-width: 429px) {
+  .hr {
+    display: block;
+  }
+}

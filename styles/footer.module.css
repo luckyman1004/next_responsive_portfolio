@@ -1,0 +1,70 @@
+.footer {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer hr {
+  margin-block: 3rem;
+  border: none;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.container > div {
+  color: rgba(255, 255, 255, 0.6);
+  margin-block: 1rem;
+}
+
+.container > div h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.container > div:nth-child(1) {
+  min-width: 30%;
+}
+.container > div:nth-child(2) {
+  min-width: 65%;
+}
+
+.secondcontainer {
+  margin-block: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.secondcontainer > p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.secondcontainer ul {
+  display: flex;
+}
+
+.secondcontainer ul li {
+  margin: 1rem;
+}
+
+.secondcontainer ul li i {
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  transition: 0.2s ease-out;
+}
+
+.secondcontainer li i:hover {
+  color: hsl(53, 70%, 48%);
+  transform: scale(1.4);
+}

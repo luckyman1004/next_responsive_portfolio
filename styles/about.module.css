@@ -1,0 +1,43 @@
+.about {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 3.5rem;
+}
+
+.about h1 {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+}
+
+.text > p {
+  max-width: 700px;
+  font-size: 1.2rem;
+  margin-block: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 2;
+}
+
+.yearslist {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.yearslist > div {
+  width: 200px;
+  margin: .5rem;
+}
+
+.yearslist > div span {
+  width: 80px;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.yearslist > div svg {
+  width: 150px;
+}
+.yearslist > div p {
+  color: rgba(255, 255, 255, 0.8);
+
+}

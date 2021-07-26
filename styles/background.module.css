@@ -1,0 +1,16 @@
+.BgAnimation__svg {
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    pointer-events: none;
+}
+
+.BgAnimation__svg2 {
+    width: 400px;
+    position: absolute;
+    top: -5%;
+    right: 0%;
+    pointer-events: none;
+
+}

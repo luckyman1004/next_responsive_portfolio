@@ -1,0 +1,109 @@
+.project {
+  width: 100%;
+  position: relative;
+}
+.project h1 {
+  font-size: 4.25rem;
+  margin-block: 2rem;
+}
+
+.cardgroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cardgroup > div {
+  background-color: hsl(219, 41%, 20%);
+  padding: 1rem;
+  border-radius: 20px;
+  width: 450px;
+  min-width: 350px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.cardgroup > div:hover,
+.cardgroup > div:focus {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transform: scale(1.020);
+}
+
+.cardgroup > div img {
+  background-size: cover;
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  opacity: 0.8;
+}
+.cardgroup > div h1 {
+  pointer-events: none;
+  font-weight: 500;
+  font-size: 2.7rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.cardgroup > div hr {
+  width: 10%;
+  height: 3px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  background: yellow;
+  margin-bottom: 2rem;
+}
+.cardgroup > div > p {
+  pointer-events: none;
+  max-width: 100%;
+  width: 380px;
+  margin: 0 auto;
+
+  line-height: 2;
+}
+/* .cardgroup > h3 {
+    margin-left: 7rem;
+} */
+
+.h3 {
+  text-align: center;
+  margin-block: 2rem;
+  letter-spacing: 2px;
+}
+
+.stackgroup {
+  display: flex;
+  width: 80%;
+  margin: 1rem auto;
+  justify-content: space-between;
+}
+
+.buttongroup {
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttongroup button {
+  width: 100px;
+  height: 40px;
+  border-radius: 45px;
+  /* background: hsl(219, 41%, 30%); */
+  background: transparent;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-weight: 500;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.buttongroup button:hover {
+  background: hsl(219, 41%, 40%);
+  box-shadow: 0px 15px 20px hsl(219, 41%, 20%, 0.4);
+  color: #fff;
+  transform: translateY(-4px);
+}
