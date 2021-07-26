@@ -2,6 +2,37 @@ html,
 body {
   padding: 0;
   margin: 0;
+}
+
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-ExtraLightItalic.ttf");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -19,8 +50,6 @@ a {
   margin: 0;
   padding: 0;
 }
-
-
 
 ul,
 ol {

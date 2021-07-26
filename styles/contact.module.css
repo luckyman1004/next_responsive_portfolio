@@ -56,15 +56,14 @@
 }
 
 .contact img {
-  position: absolute;
+  /* position: absolute;
   right: -2%;
   top: -6%;
-  transform: rotate(30deg);
-  opacity: 0.1;
+  transform: rotate(30deg); */
 }
 
 @media (max-width: 1136px) {
-  .contact img {
+  /* .contact img {
     display: none;
-  }
+  } */
 }

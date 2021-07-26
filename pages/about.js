@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import Year from "../components/Year";
 
-const about = () => {
+const About = () => {
 
 
 
@@ -74,4 +74,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

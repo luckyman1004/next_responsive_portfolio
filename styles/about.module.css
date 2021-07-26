@@ -34,7 +34,7 @@
   display: inline-block;
   font-size: 1.5rem;
 }
-.yearslist > div svg {
+.yearslist > div img {
   width: 150px;
 }
 .yearslist > div p {

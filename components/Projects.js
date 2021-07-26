@@ -22,7 +22,7 @@ const Projects = () => {
           <h1>MERN Memories</h1>
           <hr />
           <p>
-            Using React, Node.js, Express & MongoDB you'll learn how to build a
+            Using React, Node.js, Express & MongoDB you&apos;`ll learn how to build a
             Full Stack MERN Application - from start to finish. The App is
             called Memories and it is a simple social media app that allows
             users to post interesting events that happened in their lives.
@@ -43,7 +43,7 @@ const Projects = () => {
           <h1>E Commerce</h1>
           <hr />
           <p>
-            Using React, Node.js, Express & MongoDB you'll learn how to build a
+            Using React, Node.js, Express & MongoDB you&apos;`ll learn how to build a
             Full Stack MERN Application - from start to finish. The App is
             called Memories and it is a simple social media app that allows
             users to post interesting events that happened in their lives.
@@ -64,7 +64,7 @@ const Projects = () => {
           <h1>WebRTC App</h1>
           <hr />
           <p>
-            Using React, Node.js, Express & MongoDB you'll learn how to build a
+            Using React, Node.js, Express & MongoDB you&apos;`ll learn how to build a
             Full Stack MERN Application - from start to finish. The App is
             called Memories and it is a simple social media app that allows
             users to post interesting events that happened in their lives.
@@ -85,7 +85,7 @@ const Projects = () => {
           <h1>Unichat</h1>
           <hr />
           <p>
-            Using React, Node.js, Express & MongoDB you'll learn how to build a
+            Using React, Node.js, Express & MongoDB you&apos;`ll learn how to build a
             Full Stack MERN Application - from start to finish. The App is
             called Memories and it is a simple social media app that allows
             users to post interesting events that happened in their lives.

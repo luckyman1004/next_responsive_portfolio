@@ -30,7 +30,7 @@ const Technologies = () => {
     <div className={TechStyles.technologies} id="technologies">
       <h1>Technologies</h1>
       <p>
-        I've worked with a range a technologies in the web development world.
+        I&apos;ve worked with a range a technologies in the web development world.
         From Back-end To Design.
       </p>
 

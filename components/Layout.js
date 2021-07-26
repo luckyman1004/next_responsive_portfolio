@@ -1,6 +1,6 @@
 import LayoutStyle from "../styles/layout.module.css";
 
-import React, { useState ,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 
 import Nav from "../components/Nav";
 
@@ -26,18 +26,32 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,200&display=swap"
-          rel="stylesheet"
-        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
           integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
           referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          rel="preload"
+          href="/fonts/Poppins/Poppins-Bold.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Poppins/Poppins-ExtraLightItalic.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Poppins/Poppins-Medium.ttf"
+          as="font"
+          crossOrigin=""
         />
         <title>Portfolio</title>
       </Head>

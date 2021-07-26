@@ -2,6 +2,7 @@ import React from "react";
 
 import { motion } from "framer-motion";
 
+
 import ContactStyles from "../styles/contact.module.css";
 
 const contact = () => {
@@ -43,7 +44,6 @@ const contact = () => {
           formNoValidate
         />
       </form>
-      <img src="/P.svg" alt="logo" />
     </motion.div>
   );
 };
